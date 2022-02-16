@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,700");
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  margin: 0;
+}
+
+.sns-post {
+  background: #f7f7f7;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  width: 60%;
+}
+
+.first-post {
+  padding-top: 50px;
+}
+.sns-post-top {
+  padding: 15px 35px;
+  line-height: 45px;
+  vertical-align: middle;
+}
+
+.sns-post-top img {
+  border-radius: 50%;
+  margin-right: 20px;
+  vertical-align: middle;
+  width: 45px;
+}
+
+span.username {
+  font-weight: 600;
+  vertical-align: middle;
+}
+
+span.more-options {
+  background: url(https://res.cloudinary.com/jorpdesigns/image/upload/v1533421516/sprite.png);
+  background-repeat: no-repeat;
+  background-position: -78px -210px;
+  float: right;
+  height: 54px;
+  position: relative;
+  top: 11px;
+  vertical-align: middle;
+  width: 24px;
+}
+
+.post-container img {
+  width: 100%;
+}
+
+.sns-post-bottom {
+  padding: 15px 45px;
+}
+
+.sns-like-icon {
+  background: url(https://res.cloudinary.com/jorpdesigns/image/upload/v1533421516/sprite.png);
+  background-repeat: no-repeat;
+  background-position: -72px -138px;
+  float: left;
+  height: 24px;
+  margin-right: 20px;
+  vertical-align: middle;
+  width: 24px;
+}
+
+.sns-comment-icon {
+  background: url(https://res.cloudinary.com/jorpdesigns/image/upload/v1533421516/sprite.png);
+  background-repeat: no-repeat;
+  background-position: -184px -52px;
+  float: left;
+  height: 24px;
+  vertical-align: middle;
+  width: 24px;
+}
+
+.sns-bookmark-icon {
+  background: url(https://res.cloudinary.com/jorpdesigns/image/upload/v1533421516/sprite.png);
+  background-repeat: no-repeat;
+  background-position: -182px -184px;
+  float: right;
+  height: 24px;
+  vertical-align: middle;
+  width: 24px;
+}
+
+.likes-amount {
+  display: block;
+  font-weight: 600;
+  margin-top: 25px;
+  text-align: left;
+}
+
+.sns-caption .username {
+  margin-right: 5px;
+  margin-top: -3px;
+  vertical-align: top;
+}
+
+.timestamp {
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
