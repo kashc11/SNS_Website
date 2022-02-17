@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.profile-container{
+    padding: 20px 15%;
+    background-color: aliceblue;
+    color:black;
+}
+.profile-cover{
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+.profile-details{
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.pd-row{
+    display: flex;
+    align-items: flex-start;
+}
+.profile-pic{
+    width: 100px;
+    margin: 5px;
+    border-radius: 50%;
+}
+#name{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#bio{
+    font-size:14px;
+}
+.pd-right button{
+    background-color: black;
+    border: 0px;
+    outline: 0px;
+    padding: 5px 10px;
+    margin-top: 20px;
+    display: inline-flex;
+    align-items: center;
+    color: white;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+button:hover{
+    background-color: blue;
+    font-weight: bolder;
+}
+
+h2{
+    text-align: center;
+    padding-top:50px; 
+}
+
+  
